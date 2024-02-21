@@ -1,0 +1,6 @@
+[submodule "stemtool"]
+	path = stemtool
+	url = https://github.com/yutoml/stemtool.git
+[submodule "MaximaFinder"]
+	path = MaximaFinder
+	url = https://github.com/yutoml/MaximaFinder.git
