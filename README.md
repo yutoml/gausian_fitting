@@ -23,7 +23,7 @@
     cd gausian_fitting && pip install Cython numpy ipywidgets && pip install stemtool/ MaximaFinder/
     ```
   * 本家のパッケージはメンテナンス不足のため動作不良が多い
-  * 伊東の編集したパッケージはpython3.10以上に対応しちょっと便利にもなっている
+  * 私の編集したパッケージはpython3.10以上に対応しちょっと便利にもなっている
 * ダウンロードしたパッケージをpipでインストール
   * `pip install stemtool/ MaximaFinder/`
 
