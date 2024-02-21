@@ -4,7 +4,7 @@
 ただし、単純な極大ではピーク位置の精度が悪いため、ガウシアンフィッティングによりピーク位置をより正確に求める方法がある。
 本稿ではピークの極大を判別する方法にFiji/ImageJのjavaコードをpythonに移植した[MaximamFinder](https://github.com/dwaithe/MaximaFinder)とガウシアンフィッティングによるピーク位置の推定を行う[mpfit](https://github.com/yutoml/stemtool)(現在はstemtool/afitに移植)(論文 : [https://doi.org/10.1186/s40679-020-0068-y](https://doi.org/10.1186/s40679-020-0068-y))を使用する。
 
-また原子の配置からその原子の属する構造を推定する方法は、分子動力学法に頻繁に用いられる。
+また原子の配置からその原子の属する構造を推定する操作は、分子動力学法に頻繁に用いられる。
 本稿では[Ovito : Modifiers/Identification](https://www.ovito.org/manual_testing/reference/pipelines/modifiers/index.html#:~:text=Structure%20identification)のページから、中心対称性に基づく、fcc,hcpの分類を試みる。
 
 # 2. 前提条件
