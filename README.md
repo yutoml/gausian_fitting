@@ -18,8 +18,10 @@
   * Cython numpy (ipywidgets #もしJupyter Notebookで動かす場合)
   * `pip install Cython numpy ipywidgets`
 * gitを使って伊東が保守したパッケージをダウンロード
-  * `git clone https://github.com/yutoml/MaximaFinder.git`
-  * `git clone https://github.com/yutoml/stemtool.git`
+  * ```
+    git clone --recursive https://github.com/yutoml/gausian_fitting.git &&\
+    cd gausian_fitting && pip install Cython numpy ipywidgets && pip install stemtool/ MaximaFinder/
+    ```
   * 本家のパッケージはメンテナンス不足のため動作不良が多い
   * 伊東の編集したパッケージはpython3.10以上に対応しちょっと便利にもなっている
 * ダウンロードしたパッケージをpipでインストール
