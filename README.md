@@ -14,18 +14,15 @@
 以下はコンテナを使わずに環境を作る場合の手順
 
 * Python ver 3.11以上を推奨(pyproject.tomlを使用している観点から)
-* 以下のライブラリをpipでインストール
-  * Cython numpy (ipywidgets #もしJupyter Notebookで動かす場合)
-  * `pip install Cython numpy ipywidgets`
-* gitを使って私が保守したパッケージをダウンロード
+
+* gitを使って私が保守したパッケージをダウンロードして必要なパッケージとダウンロードしたパッケージpipでインストール
   * ```
     git clone --recursive https://github.com/yutoml/gausian_fitting.git &&\
     cd gausian_fitting && pip install Cython numpy ipywidgets && pip install stemtool/ MaximaFinder/
     ```
   * 本家のパッケージはメンテナンス不足のため動作不良が多い
   * 私の編集したパッケージはpython3.10以上に対応しちょっと便利にもなっている
-* ダウンロードしたパッケージをpipでインストール
-  * `pip install stemtool/ MaximaFinder/`
+
 
 # 3. 手順
 
